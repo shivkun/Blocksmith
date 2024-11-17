@@ -1,6 +1,11 @@
 #ifndef FILE_IO_H
 #define FILE_IO_H
 
+/**
+ * @file file_io.h
+ * @brief Functions for saving and loading plans to and from files.
+ */
+
 #include "plan.h"
 
 /**
@@ -15,7 +20,7 @@ void save_plan(const char *filename, Plan *plan);
  * @brief Load a plan from the Blocksmith binary file format.
  *
  * @param filename The name of the file to load the plan from.
- * @return The loaded plan.
+ * @return A pointer to the loaded Plan, or NULL if the operation fails.
  */
 Plan *load_plan(const char *filename);
 

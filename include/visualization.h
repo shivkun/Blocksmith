@@ -1,6 +1,11 @@
 #ifndef VISUALIZATION_H
 #define VISUALIZATION_H
 
+/**
+ * @file visualization.h
+ * @brief Functions for visualizing a Plan.
+ */
+
 #include "plan.h"
 
 /**

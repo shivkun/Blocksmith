@@ -1,6 +1,11 @@
 #ifndef BLOCKSMITH_H
 #define BLOCKSMITH_H
 
+/**
+ * @file blocksmith.h
+ * @brief Shared definitions for the Blocksmith library.
+ */
+
 // SHARED DEFINITION OF THE BLOCKSMITH LIBRARY
 
 #include <stdint.h>

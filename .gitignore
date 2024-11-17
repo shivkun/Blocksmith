@@ -50,3 +50,6 @@ Thumbs.db
 
 # Archive files
 *.zip
+
+# Ignore Doxygen output
+docs/
