@@ -1,0 +1,52 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.log
+*.stackdump
+
+# SDL2-related build artifacts (e.g., CMake cache files)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Fonts
+*.ttf
+*.otf
+
+# Blocksmith files
+*.blks
+
+# Archive files
+*.zip
